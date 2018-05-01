@@ -1,0 +1,23 @@
+{
+  "name": "mqtt_broker",
+  "version": "1.0.1",
+  "description": "Mqtt broker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "axios": "^0.18.0",
+    "body-parser": "~1.0.1",
+    "crypto-js": "^3.1.9-1",
+    "express": "~4.0.0",
+    "http-auth": "~2.2.8",
+    "moment-timezone": "^0.5.14",
+    "mongodb": "^3.0.7",
+    "morgan": "^1.9.0",
+    "mosca": "^2.7.0"
+  },
+  "author": "Jason Huang",
+  "license": "ISC"
+}
