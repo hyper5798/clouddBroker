@@ -4,6 +4,8 @@ var util = require('./util.js');
 var isAuth = config.auth
 var server = null
 var debug = true;
+var uName = config.username;
+var uPass = config.password;
 
 /* var ascoltatore = {
   //using ascoltatore
@@ -34,7 +36,7 @@ var Mqttsv = function(){
   server.on('ready', setup);
   // Accepts the connection if the username and password are valid
   var authenticate = function(client, username, password, callback) {
-    var authorized = (username === 'gemtek' && password.toString() === 'gemtek12345');
+    var authorized = (username === uName && password.toString() === uPass);
     if (authorized) client.user = username;
     callback(null, authorized);
   }

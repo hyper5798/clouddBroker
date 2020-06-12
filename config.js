@@ -4,6 +4,8 @@ config.port = 8001;
 
 //Authentication
 config.auth = true;
+config.username = '';
+config.password = '';
 
 //Zone
 config.timezone = 'Asia/Taipei';
