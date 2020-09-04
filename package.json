@@ -14,7 +14,7 @@
     "express": "~4.0.0",
     "http-auth": "~2.2.8",
     "moment-timezone": "^0.5.14",
-    "mongodb": "^3.0.7",
+    "mongodb": "^3.1.13",
     "morgan": "^1.9.0",
     "mosca": "^2.7.0"
   },
